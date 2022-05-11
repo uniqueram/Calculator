@@ -1,4 +1,5 @@
 //comment by ram
+function calcEngine(){
 let string = "";
 let buttons = document.querySelectorAll(".button");
 Array.from(buttons).forEach((button)=>{
@@ -17,5 +18,8 @@ Array.from(buttons).forEach((button)=>{
         document.querySelector('input').value = string;}
     })
 })
+}
+
+
 
     
